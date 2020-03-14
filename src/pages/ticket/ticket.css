@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Avenir Heavy";
+  font-style: normal;
+  font-weight: 10;
+  src: local("Avenir Heavy"), local("AvenirHeavy"),
+    url("../../fonts/Avenir\ Heavy.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../../fonts/Avenir Heavy.woff")
+      format("woff"); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "Opticon";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Opticon"), local("Opticon"),
+    url("../../fonts/Opticon.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../../fonts/Opticon.woff") format("woff"); /* Modern Browsers */
+}
+
+body {
+  font-family: Avenir Heavy;
+}
+
+#title {
+  font-family: Avenir Heavy;
+  position: relative;
+  top: 100px;
+  height: 100px;
+}
+
+#ticketTitle {
+  position: relative;
+  top: 50px;
+  font-family: Avenir Heavy !important;
+}
+
+#ticketCard {
+  box-shadow: black !important;
+  margin: 112px;
+}
+
+#backTitle {
+  position: relative;
+  width: 186px;
+  height: 34.31px;
+  left: -1px;
+  top: -0.1px;
+
+  color: white;
+  font-family: Opticon;
+  text-align: center;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 5px;
+}
+
+#tagTitle {
+  position: relative;
+  top: 5px;
+  font-size: 35px;
+}
+
+#rows {
+  margin-top: 10px;
+}
+
+.columnTicket {
+  margin-top: 20px;
+  padding-left: 65px;
+  width: fit-content;
+}
+
+#trainType {
+  color: rgba(117, 117, 117, 0.87);
+  position: relative;
+  left: 30px;
+}
+
+.alert {
+  margin-top: 55px;
+  width: fit-content;
+  height: fit-content;
+  left: 15px;
+}
+
+.idNumber {
+  margin-top: 45px;
+}
+
+.idNumberFill {
+  color: rgba(117, 117, 117, 0.87);
+}
+
+.phoneNumber {
+  position: relative;
+  bottom: -90px;
+  margin-top: 45px;
+}
+
+.phoneNumberFill {
+  position: relative;
+  bottom: -90px;
+  color: rgba(117, 117, 117, 0.87);
+}
+
+.emailUser {
+  position: relative;
+  bottom: -170px;
+  margin-top: 45px;
+}
+
+.emailUserFill {
+  position: relative;
+  bottom: -170px;
+  color: rgba(117, 117, 117, 0.87);
+
+  font-size: 10px;
+}
+
+#imgFromTo {
+  float: left;
+}
+
+#dataFromTo {
+  float: right;
+}
+
+#fromto {
+  height: 170px;
+}
+
+#departureTrain {
+  position: relative;
+  top: 5px;
+  left: 3px;
+}
+
+#arrivalTrain {
+  position: relative;
+  top: 120px;
+  left: 3px;
+}
+
+#toTrain {
+  position: relative;
+  top: 90px;
+}
+
+#pay {
+  position: relative;
+  bottom: -130px;
+  margin: 50px;
+}
